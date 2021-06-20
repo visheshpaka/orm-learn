@@ -8,7 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.cognizant.ormlearn.mode.Country;
+import com.cognizant.ormlearn.model.Country;
 import com.cognizant.ormlearn.service.CountryService;
 
 @SpringBootApplication
