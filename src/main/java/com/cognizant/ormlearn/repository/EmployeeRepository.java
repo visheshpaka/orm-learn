@@ -20,4 +20,4 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 	
 	@Query(value="SELECT * from employee", nativeQuery = true)
 	List<Employee> getAllEmployeesNative();
-}
+} 

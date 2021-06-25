@@ -41,7 +41,7 @@ public class CountryServiceImpl implements CountryService {
 	@Override
 	public void updateCountry(String code, String name) {
 		Country countryToBeUpdated = repository.findById(code).get();
-		countryToBeUpdated.setName(name);
+		countryToBeUpdated.setName(name); 
 		repository.save(countryToBeUpdated);
 	}
 

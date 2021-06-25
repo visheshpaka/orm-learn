@@ -30,7 +30,7 @@ public class Stock {
 	private String st_code;
 
 	@Column(name = "st_date")
-	@Temporal(TemporalType.TIMESTAMP)
+	@Temporal(TemporalType.TIMESTAMP) 
 	private Date st_date;
 
 	@Column(name = "st_open")

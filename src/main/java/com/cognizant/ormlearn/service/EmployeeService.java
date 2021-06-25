@@ -18,4 +18,4 @@ public interface EmployeeService {
 	public double getAverageSalary(int id);
 
 	public List<Employee> getAllEmployeesNative();
-}
+} 

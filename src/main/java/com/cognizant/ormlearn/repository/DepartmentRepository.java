@@ -8,4 +8,4 @@ import com.cognizant.ormlearn.model.Department;
 @Repository
 public interface DepartmentRepository extends JpaRepository<Department, Integer> {
 
-}
+} 

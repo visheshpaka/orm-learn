@@ -22,4 +22,4 @@ public class SkillServiceImpl implements SkillService{
 	public void save(Skill skill) {
 		repository.save(skill);
 	}
-}
+} 

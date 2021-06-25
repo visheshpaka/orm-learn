@@ -18,4 +18,4 @@ public interface StockService {
 	public List<Stock> getTop3StocksByVolume();
 	
 	public List<Stock> get3LowestNetflixStocks();
-}
+} 

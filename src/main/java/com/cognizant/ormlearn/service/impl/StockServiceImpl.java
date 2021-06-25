@@ -24,7 +24,7 @@ public class StockServiceImpl implements StockService {
 
 	@Override
 	public List<Stock> getStocksOfFBInSep2019() {
-		return repository.getStocksOfFBInSep2019();
+		return repository.getStocksOfFBInSep2019(); 
 	}
 
 	@Override

@@ -14,6 +14,6 @@ public interface CountryRepository extends JpaRepository<Country, String> {
 	@Query("SELECT c from Country c where c.name like %?1% order by c.name")
 	List<Country> findCountriesByPartialName(String partialName);
 	
-	@Query("SELECT c from Country c where c.name like ?1%")
+	@Query("SELECT c from Country c where c.name like ?1%") 
 	List<Country> findCountriesByStartingLetter(char startingLetter);
 }

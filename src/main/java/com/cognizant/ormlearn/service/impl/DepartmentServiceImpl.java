@@ -15,7 +15,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
 	@Override
 	public Department get(int id) {
-		return repository.findById(id).get();
+		return repository.findById(id).get(); 
 	}
 
 	@Override

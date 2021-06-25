@@ -196,7 +196,7 @@ public class OrmLearnApplication {
 			employee.setPermanent(true);
 			SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd");
 			employee.setDateOfBirth(ft.parse("1999-06-01"));
-			Department department = departmentService.get(1);
+			Department department = departmentService.get(1); 
 			employee.setDepartment(department);
 			employeeService.save(employee);
 			LOGGER.debug("Employee:{}", employee);
