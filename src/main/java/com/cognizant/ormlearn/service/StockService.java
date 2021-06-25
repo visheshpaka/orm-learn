@@ -8,7 +8,7 @@ import com.cognizant.ormlearn.model.Stock;
 @Transactional
 public interface StockService {
 	
-	@Transactional(readOnly = true)
+	@Transactional(readOnly = true) 
 	public List<Stock> getAllStocks();
 	
 	public List<Stock> getStocksOfFBInSep2019();

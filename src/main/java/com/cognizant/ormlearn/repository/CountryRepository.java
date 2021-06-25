@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.cognizant.ormlearn.model.Country;
 
 @Repository
-public interface CountryRepository extends JpaRepository<Country, String> {
+public interface CountryRepository extends JpaRepository<Country, String> { 
 
 	@Query("SELECT c from Country c where c.name like %?1% order by c.name")
 	List<Country> findCountriesByPartialName(String partialName);

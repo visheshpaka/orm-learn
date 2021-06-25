@@ -27,7 +27,7 @@ public class Stock {
 	private int id;
 
 	@Column(name = "st_code")
-	private String st_code;
+	private String st_code; 
 
 	@Column(name = "st_date")
 	@Temporal(TemporalType.TIMESTAMP) 

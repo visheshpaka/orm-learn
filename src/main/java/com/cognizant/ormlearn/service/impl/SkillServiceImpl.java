@@ -10,7 +10,7 @@ import com.cognizant.ormlearn.service.SkillService;
 @Service("skillService")
 public class SkillServiceImpl implements SkillService{
 	
-	@Autowired
+	@Autowired 
 	private SkillRepository repository;
 
 	@Override

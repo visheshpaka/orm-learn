@@ -12,7 +12,7 @@ import com.cognizant.ormlearn.service.EmployeeService;
 @Service("employeeService")
 public class EmployeeServiceImpl implements EmployeeService {
 
-	@Autowired
+	@Autowired 
 	private EmployeeRepository repository;
 
 	@Override

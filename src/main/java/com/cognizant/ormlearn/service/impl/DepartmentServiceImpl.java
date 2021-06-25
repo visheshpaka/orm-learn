@@ -10,7 +10,7 @@ import com.cognizant.ormlearn.service.DepartmentService;
 @Service("departmentService")
 public class DepartmentServiceImpl implements DepartmentService {
 
-	@Autowired
+	@Autowired 
 	private DepartmentRepository repository;
 
 	@Override

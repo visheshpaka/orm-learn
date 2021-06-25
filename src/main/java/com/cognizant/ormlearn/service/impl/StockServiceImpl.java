@@ -12,7 +12,7 @@ import com.cognizant.ormlearn.service.StockService;
 
 @Service("stockService")
 public class StockServiceImpl implements StockService {
-
+ 
 	@Autowired
 	private StockRepository repository;
 

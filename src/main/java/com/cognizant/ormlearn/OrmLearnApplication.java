@@ -31,7 +31,7 @@ public class OrmLearnApplication {
 	@Autowired
 	CountryService countryService;
 
-	@Autowired
+	@Autowired 
 	StockService stockService;
 
 	@Autowired

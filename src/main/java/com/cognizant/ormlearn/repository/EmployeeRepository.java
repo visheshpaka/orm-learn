@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import com.cognizant.ormlearn.model.Employee;
-
+ 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 

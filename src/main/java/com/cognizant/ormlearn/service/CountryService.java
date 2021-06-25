@@ -10,7 +10,7 @@ import com.cognizant.ormlearn.service.exception.CountryNotFoundException;
 @Transactional
 public interface CountryService {
 
-	@Transactional(readOnly = true) 
+	@Transactional(readOnly = true)  
 	public List<Country> getAllCountries();
 
 	public Country findCountryByCode(String countryCode) throws CountryNotFoundException;
