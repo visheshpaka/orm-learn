@@ -9,17 +9,18 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter 
+@Getter
 @Setter
 @ToString
 @Entity
-@Table(name="country")
+@Table(name = "country")
 public class Country {
 
 	@Id
-	@Column(name="co_code")
+	@Column(name = "co_code")
 	private String code;
-	
-	@Column(name="co_name")
+
+	@Column(name = "co_name")
 	private String name;
+
 }

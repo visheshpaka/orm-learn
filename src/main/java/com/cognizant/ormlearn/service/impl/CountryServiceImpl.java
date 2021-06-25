@@ -11,7 +11,7 @@ import com.cognizant.ormlearn.repository.CountryRepository;
 import com.cognizant.ormlearn.service.CountryService;
 import com.cognizant.ormlearn.service.exception.CountryNotFoundException;
 
-@Service("countryService")
+@Service("CountryService")
 public class CountryServiceImpl implements CountryService {
 
 	@Autowired
